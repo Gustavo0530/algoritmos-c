@@ -10,7 +10,7 @@ int main() {
     
     a = 3.14159265 * (r * r);
 	
-	printf("Calculando a area o resultado sera %.3f", a);
+    printf("Calculando a area o resultado sera %.3f", a);
 	
     return 0;
 }

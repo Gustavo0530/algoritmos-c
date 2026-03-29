@@ -13,7 +13,7 @@ int main() {
     
     d = r / c;
     
-    printf("O valor de %f reais, convertido para dolar sera igual a %f", r, d);
+    printf("O valor de %.3f reais, convertido para dolar sera igual a %.3f", r, d);
     
     return 0;
 }
