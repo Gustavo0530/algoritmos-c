@@ -10,7 +10,7 @@ int main(){
     for (c = 10 ; c <= 100 ; c += 10){
 
     f = (c * 1.8) + 32;
-    printf("Celsius = %d | %.2f Farenheit\n", c, f);
+    printf("Celsius = %d | Farenheit: %.2f \n", c, f);
     }
     
 return 0;

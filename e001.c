@@ -11,7 +11,7 @@ int main() {
 
         quadrado = (long)i * i;
 
-        rintf("O quadrado de %d e: %ld \n", i, quadrado);
+        printf("O quadrado de %d e: %ld \n", i, quadrado);
 
     }
 

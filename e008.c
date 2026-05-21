@@ -15,7 +15,7 @@ int main() {
     
     for (i = 1 ; i <= e; i++) {
         p = p * b;
-        printf("Passo %d: %lld\n", i, p);
+        printf("Passo %d: %d x %d = %lld\n", i, b, i, p);
     }
 
     printf("\nResultado: %d elevado a %d e igual a: %lld", b, e, p);

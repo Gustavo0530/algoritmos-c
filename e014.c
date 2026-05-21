@@ -30,7 +30,7 @@ int main (){
         m = s / c;
 
         printf("\nResultados finais:\n");
-        printf("Total de valores lidos: %d\n10", c);
+        printf("Total de valores lidos: %d\n", c);
         printf("Somatorio acumulado: %.2f\n", s);
         printf("Media dos valores: %.2f\n", m);
     }

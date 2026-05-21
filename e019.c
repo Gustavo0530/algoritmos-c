@@ -20,7 +20,7 @@ int main(){
     } else {
 
         while (r >= divisor) {
-            r = r - divisor;
+            r -= divisor;
             q++;
         }
 

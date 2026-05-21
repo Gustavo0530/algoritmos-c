@@ -21,7 +21,7 @@ int main(){
 
     }
 
-    printf("Somatorio total das medias:");
+    printf("Somatorio total das medias:\n");
     printf("Total acumulado: %.2f\n", s);
     printf("Media final: %.2f\n", m);
 
