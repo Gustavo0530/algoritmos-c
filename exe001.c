@@ -2,31 +2,22 @@
 
 int main (){
 
-    int a[10];
-    int b[10];
-    int c[10];
+    int a[8];
+    int b[8];
 
     printf("Vetor A:\n");
 
-    for (int i = 0; i < 10; i++)
-    {
+    for (int i = 0; i < 8; i++){
         printf("Numero %d = ", i + 1);
         scanf("%d", &a[i]);
     }
 
-    printf("Vetor B:\n35");
+    printf("\nResultado:\n");
 
-    for (int i = 0; i < 10; i++)
-    {
-        printf("Numero %d = ", i + 1);
-        scanf("%d", &b[i]);
+    for (int i = 0; i < 8; i++){
+        b[i] = a[i] * 3;
+        printf("\nVetor A = %d // Vetor B = %d", a[i], b[i]);
     }
 
-    printf("Substracao:");
-
-    for (int i = 0; i < 10; i++)
-    {
-        c[i] = a[i] - b[i];
-        printf("\n%d - %d = %d", a[i], b[i], c[i]);
-    }
+    return 0;
 }
